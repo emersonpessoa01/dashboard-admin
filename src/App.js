@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
 
-function App() {
+import SideBar from "./components/sidebar/Sidebar";
+import Navbar from "./components/navbar/Navbar";
+import Main from "./components/main/Main";
+
+// eslint-disable-next-line
+const App = () => {
+  const [sideBar, setSideBar] = useState(false);
+
+  const openSideBar = () => {
+    setSideBar(true);
+  };
+
+  const closeSideBar = () => {
+    setSideBar(false);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Navbar sideBar={sideBar} openSideBar={openSideBar} />
+      <Main/>
+      <SideBar sideBar={sideBar} closeSideBar={closeSideBar} />
     </div>
   );
-}
+};
 
 export default App;

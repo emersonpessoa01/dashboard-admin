@@ -10,7 +10,7 @@
 
      
 
-[dashboard-admin-responsive](https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiOrbTDhtDrAhV4IbkGHfYDDgQQPAgI)
+[dashboard-admin-responsive](https://dashboard-admin-responsive.netlify.app/)
 
 <a href="https://github.com/emersonpessoa01"><img src="https://img.shields.io/static/v1?label=build&message=home&color=0000fff&style=flat&logo=github"/></a> <a href="https://github.com/emersonpessoa01"> ![Relative date](https://img.shields.io/date/1598663640)</a>  <a href="https://github.com/emersonpessoa01/dashboard-admin-responsive"><img src="https://img.shields.io/static/v1?label=page&message=frontend&color=4c15dc&stype=for-the-badge&logo=JAVASCRIPT"></a> 
 <h4> Preview: </h4>

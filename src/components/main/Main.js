@@ -4,6 +4,10 @@ import Chart from "../charts/Chart";
 import "./Main.css"
 
 function Main() {
+  const year = new Date().getFullYear()
+  const month = (new Date().getMonth() + 1).toString().padStart(2, "0") 
+  const day = new Date().getDate()
+  const dateCurrent= `${day}/${month}/${year}`
   return (
     <main>
       <div className="main__container">
@@ -12,6 +16,7 @@ function Main() {
           <div className="main__greeting">
             <h1>Olá, Emerson Pessoa</h1>
             <p>Seja bem-vindo ao seu painel</p>
+            <h2>{dateCurrent}</h2>
           </div>
         </div>
 

@@ -2,7 +2,7 @@
      <b>Dashboard-admin</b><sup>:copyright:</sup>
 </h4>
 
-### Preview App: [dashboard-admin-responsive](https://dashboard-admin-responsive.netlify.app/)
+### Preview App: [dashboard-admin-responsive](https://dashboard-admin-responsive.vercel.app/)
 
 <hr> 
      <p align="center">
